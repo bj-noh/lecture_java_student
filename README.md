@@ -19,3 +19,7 @@ $ git clone https://github.com/bj-noh/lecture_java_student.git
 ```
 $ git pull
 ```
+
+## 주의 사항
+다운 받은 파일을 바로 Eclipse에서 open하려고하면 컴파일이 안될 수 있습니다. 
+파일 내용은 학습에 참고만 하고, 직접 코딩해보도록 하세요.
