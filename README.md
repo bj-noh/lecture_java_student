@@ -12,7 +12,7 @@ https://git-scm.com/downloads
 원하는 폴더에 우클릭 후 "Git Bash Here" 클릭
 
 ## 파일 다운받기
-command prompt 에서 아래 명령어 입력
-'''
+command prompt 에서 아래 명령어 입력  
+```
 git clone https://github.com/bj-noh/lecture_java_student.git
-'''
+```
