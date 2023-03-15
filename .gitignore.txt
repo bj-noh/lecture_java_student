@@ -1,2 +1,2 @@
-assignment1/
-assignment2/
+assignment1/*.java
+assignment2/*.java
