@@ -3,30 +3,20 @@ package Chap3_Example;
 public class _05_For {
     public static void main(String[] args) {
         // 반복문 For
-        // 올리브영 매장
-        System.out.println("어서오세요. 올리브영입니다.");
-        // 또다른 손님이 들어오면?
-        System.out.println("어서오세요. 올리브영입니다.");
-        System.out.println("어서오세요. 올리브영입니다.");
-        System.out.println("어서오세요. 올리브영입니다.");
-        System.out.println("어서오세요. 올리브영입니다.");
-        System.out.println("어서오세요. 올리브영입니다.");
-        System.out.println("어서오세요. 올리브영입니다.");
-        // 만약에 인사 법이 바뀌면?
-        System.out.println("환영합니다. 올리브영입니다.");
-        System.out.println("환영합니다. 올리브영입니다.");
-        System.out.println("환영합니다. 올리브영입니다.");
-        // 매장 이름이 바뀌면?
-        // 올리브영 -> 올영
-        System.out.println("환영합니다. 올리브영입니다.");
-        System.out.println("환영합니다. 올리브영입니다.");
-        System.out.println("환영합니다. 올리브영입니다.");
-
-        System.out.println(" ---- 반복문 사용 ---- ");
-
-        // 반복문 사용 For
+        System.out.println("Thank you, 1");
+        System.out.println("Thank you, 2");
+        System.out.println("Thank you, 3");
+        System.out.println("Thank you, 4");
+        System.out.println("Thank you, 5");
+        System.out.println("Thank you, 6");
+        System.out.println("Thank you, 7");
+        System.out.println("Thank you, 8");
+        System.out.println("Thank you, 9");
+        System.out.println("Thank you, 10");
+        
+        System.out.println(" ---- For loop ---- ");
         for (int i = 0; i < 10; i++) {
-            System.out.println("환영합니다. 올영입니다. " + i);
+            System.out.println("Thank you, " + i);
         }
 
         // 0, 2, 4, 6, 8
@@ -57,8 +47,8 @@ public class _05_For {
         int sum = 0;
         for (int i = 1; i <= 10; i++) {
             sum += i;
-            System.out.println("현재까지 총합은 " + sum + "입니다.");
+            System.out.println("Current total number is " + sum);
         }
-        System.out.println("1부터 10까지의 모든 수의 총합은 " + sum + "입니다.");
+        System.out.println("Total number from 1 to 10 is " + sum);
     }
 }

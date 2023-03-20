@@ -2,11 +2,10 @@ package Chap2_Practice;
 
 import java.util.Scanner;
 
-public class _03_TriangleAreaCalculator {
+public class _02_TriangleAreaCalculator {
     public static void main(String[] args) {
     	/*
-    	 * 삼각형의 밑변과 높이를 실수형 변수로 각각 입력받고, 삼각형의 넓이를 구하는 프로그램을 작성하여라. 
-    	 * 
+    	 * 삼각형의 밑변과 높이를 실수형 변수로 각각 입력받고, 삼각형의 넓이를 구하는 프로그램을 작성하여라.  
     	 */
         Scanner scanner = new Scanner(System.in);
 

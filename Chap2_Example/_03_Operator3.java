@@ -2,18 +2,44 @@ package Chap2_Example;
 
 public class _03_Operator3 {
     public static void main(String[] args) {
-        // 비교 연산자
-        System.out.println(5 > 3); // 5 는 3 보다 크다 (참이면 true, 거짓이면 false)
-        System.out.println(5 >= 3); // 5 는 3 보다 크거나 같다 (true)
-        System.out.println(5 >= 5); // 5 는 5 보다 크거나 같다 (true)
-        System.out.println(5 >= 7); // 5 는 7 보다 크거나 같다 (false)
+		// TODO Auto-generated method stub
+        // 대입 연산자
+        int num = 10;
+        num = num + 2;
+        System.out.println(num); // 12
 
-        System.out.println(5 < 3); // 5 는 3 보다 작다 (false)
-        System.out.println(5 <= 3); // 5 는 3 보다 작거나 같다 (false)
+        num = num - 2;
+        System.out.println(num); // 10
 
-        System.out.println(5 == 5); // 5 는 5 와 같다 (true)
-        System.out.println(5 == 3); // 5 는 3 과 같다 (false)
-        System.out.println(5 != 5); // 5 는 5 와 같지 않다 (false)
-        System.out.println(5 != 3); // 5 는 3 과 같지 않다 (true)
+        num = num * 2;
+        System.out.println(num); // 20
+
+        num = num / 2;
+        System.out.println(num); // 10
+
+        num = num % 2;
+        System.out.println(num); // 0
+
+        // 복합 대입 연산자
+        num = 10;
+        // num = num + 2;
+        num += 2;
+        System.out.println(num); // 12
+
+        // num = num - 2;
+        num -= 2;
+        System.out.println(num); // 10
+
+        // num = num * 2;
+        num *= 2;
+        System.out.println(num); // 20
+
+        // num = num / 2;
+        num /= 2;
+        System.out.println(num); // 10
+
+        // num = num % 2;
+        num %= 2;
+        System.out.println(num); // 0
     }
 }

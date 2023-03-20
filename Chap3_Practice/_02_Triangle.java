@@ -2,7 +2,7 @@ package Chap3_Practice;
 
 import java.util.Scanner;
 
-public class _01_Triangle {
+public class _02_Triangle {
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
 

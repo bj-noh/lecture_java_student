@@ -2,7 +2,7 @@ package Chap3_Practice;
 
 import java.util.Scanner;
 
-public class _02_ReverseTraingle {
+public class _03_ReverseTraingle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
