@@ -65,10 +65,10 @@ public class _02_ArrayPlusConstant {
             }
         }
         
-        input.close();
-        
         System.out.print("Enter the constant to add: ");
         int constant = input.nextInt();
+
+        input.close();
         
         addConstant(arr, constant);
         printMatrix(arr);
