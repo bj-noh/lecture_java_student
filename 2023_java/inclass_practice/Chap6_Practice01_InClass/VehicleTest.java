@@ -34,6 +34,55 @@ public class VehicleTest {
     }
     
     public static void main(String[] args) {
+    	/*
+    	 *  결과:
+    	 *  Engine started
+			Vehicle moving
+			Engine stopped
+			Car driving
+			Car parked
+			Engine started
+			Car moving
+			Engine stopped
+			Tank firing cannon
+			Tank moving
+			Engine started
+			Tank moving
+			Engine stopped
+			Airplane taking off
+			Airplane landing
+			Engine started
+			Airplane moving
+			Engine stopped
+			Autonomous car driving in auto-pilot mode
+			Car driving
+			Car parked
+			Engine started
+			Car moving
+			Engine stopped
+			Vehicle Information
+			Manufacturer: Vehicle manufacturer
+			Model: Model
+			-----------------------
+			Car Information
+			Manufacturer: Car Manufacturer
+			Model: Car Model
+			-----------------------
+			Tank Information
+			Manufacturer: Tank Manufacturer
+			Model: Tank Model
+			-----------------------
+			Airplane Information
+			Manufacturer: Airplane Manufacturer
+			Model: Airplane Model
+			-----------------------
+			Autonomous Information
+			Manufacturer: Autonomous Manufacturer
+			Model: Autonomous Model
+			-----------------------
+
+    	 */
+    	
         // Create instances of Vehicle, Car, Tank, Airplane, and Autonomous
         Vehicle vehicle = new Vehicle();
         Car car = new Car("Car Manufacturer", "Car Model");
