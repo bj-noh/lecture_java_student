@@ -1,8 +1,5 @@
 package assignment07_02;
 
-import assignment07_02_answer.Circle;
-import assignment07_02_answer.Rectangle;
-
 public class ShapeTest {
     public static void main(String[] args) {
     	

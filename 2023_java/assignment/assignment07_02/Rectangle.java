@@ -11,8 +11,8 @@ public class Rectangle {
 	 * - height: double
 	 * 		직사각형의 높이
 	 * 
-	 * + Circle(int x, int y, String color, double width double height)
-	 * 		입력받은 x, y, color값을 상위 클래스인 Shape 클래스의 멤버에 할당하고, radius는 Circle 클래스의 멤버 변수 radius에 할당하는 생성자 
+	 * + Rectangle(int x, int y, String color, double width double height)
+	 * 		입력받은 x, y, color값을 상위 클래스인 Shape 클래스의 멤버에 할당하고, width와 height를 각각 멤버 변수 width와 height에 할당하는 생성자 
 	 *  
 	 * + getArea(): double
 	 * 		 Rectangle의 면적을 반환하는 메소드
