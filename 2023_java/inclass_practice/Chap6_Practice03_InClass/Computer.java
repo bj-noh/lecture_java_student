@@ -16,20 +16,18 @@ public class Computer {
 	public Computer(String CPU_model, String RAM_model, String MB_model, int monitorNum) {
 		this.CPU_model = CPU_model;
 		// 나머지 파라미터 3개를 멤버 변수에 할당
-		//
-		//
-		//
 	}
 	
-	public showComInfo() {
+	public void showComInfo() {
 		// 모든 멤버 변수의 값을 출력
+		System.out.println("CPU model: " + this.CPU_model);
 	}
 	
 	// getter(), setter() 만들기
 	// 예시
 	public String getCPUModel() { return this.CPU_model; }
 	public void setCPUModel(String CPU_Model) { this.CPU_model = CPU_model; }
-
+	
 	
 	
 	
