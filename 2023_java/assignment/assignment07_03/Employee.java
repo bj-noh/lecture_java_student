@@ -30,7 +30,7 @@ public abstract class Employee {
 	 * + getFullName(): String
 	 * 		Employee의 풀 네임(first name + last name)을 반환하는 메소드
 	 * 
-	 * + setDepartment(double radius): void
+	 * + setDepartment(String department): void
 	 * 		Employee의 부서를 설정(변경)하는 메소드
 	 * 
 	 * + getDepartment(): String

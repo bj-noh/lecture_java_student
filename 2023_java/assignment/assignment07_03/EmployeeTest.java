@@ -12,12 +12,11 @@ public class EmployeeTest {
     	 * 결과>
     	 * 
     	 *	Hourly Employee: John Doe, Employee ID: 1001, Department: IT, Hourly Rate: $15.0, Hours Worked: 40.0, Weekly Salary: $600.0
-			Salaried Employee: Jane Smith, Employee ID: 1002, Department: HR, Monthly Salary: $5000.0, Weekly Salary: $60000.0
+			Salaried Employee: Jane Smith, Employee ID: 1002, Department: HR, Monthly Salary: $5000.0, Yearly Salary: $60000.0
 			=== After change John's hourly rate and hours worked into 18 and 50, respectively ===
 			=== After change Jane's yearly salary into $ 65000 ===
 			Hourly Employee after raise: John Doe, Employee ID: 1001, Department: IT, Hourly Rate: $18.0, Hours Worked: 50.0, Weekly Salary: $900.0
 			Salaried Employee after raise: Jane Smith, Employee ID: 1002, Department: HR, Monthly Salary: $5416.666666666667, Yearly Salary: $65000.0
-
     	 */
     	
         HourlyEmployee hourlyEmployee = new HourlyEmployee("John", "Doe", 1001, 15.0, 40.0, "IT");
@@ -28,7 +27,7 @@ public class EmployeeTest {
                 ", Hourly Rate: $" + hourlyEmployee.getHourlyRate() + ", Hours Worked: " +
                 hourlyEmployee.getHoursWorked() + ", Weekly Salary: $" + hourlyEmployee.getSalary());
 
-        System.out.println("Salaried Employee after raise: " + salariedEmployee.getFullName() + ", Employee ID: " +
+        System.out.println("Salaried Employee: " + salariedEmployee.getFullName() + ", Employee ID: " +
                 salariedEmployee.getEmployeeId() + ", Department: " + salariedEmployee.getDepartment() +
                 ", Monthly Salary: $" + salariedEmployee.getMonthlySalary() + ", Yearly Salary: $" +
                 salariedEmployee.getSalary());
@@ -49,4 +48,5 @@ public class EmployeeTest {
                 salariedEmployee.getEmployeeId() + ", Department: " + salariedEmployee.getDepartment() +
                 ", Monthly Salary: $" + salariedEmployee.getMonthlySalary() + ", Yearly Salary: $" +
                 salariedEmployee.getSalary());
+    }
 }
