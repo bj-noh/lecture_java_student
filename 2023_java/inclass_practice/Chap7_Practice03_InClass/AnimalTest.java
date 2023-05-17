@@ -1,0 +1,69 @@
+package Chap7_Practice03_InClass;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* 
+		 * 결과:
+		 *  Fish() constructor is executed...
+			Cat() constructor is executed...
+			Turtle() constructor is executed...
+			
+			Fish breath() is executed...
+			Fish eat() is executed...
+			Fish move() is executed...
+			Fish sleep() is executed...
+			Fish swim() is executed...
+			
+			Cat move() is executed...
+			Cat eat() is executed...
+			Cat hunt() is executed...
+			Cat move() is executed...
+			Cat run() is executed...
+			Cat sleep() is executed...
+			Num of legs of cat: 4
+			
+			Turtle breath() is executed...
+			Turtle eat() is executed...
+			Turtle hunt() is executed...
+			Turtle move() is executed...
+			Turtle run() is executed...
+			Turtle sleep() is executed...
+			Turtle swim() is executed...
+			Num of legs of turtle: 4
+
+		*/
+
+		Fish fish = new Fish(); // implements SeaAnimal
+		Cat cat = new Cat(); // implements FourLegsLandAnimal
+		Turtle turtle = new Turtle(); // implements FourLegsLandAnimal and SeaAnimal
+		System.out.println();
+		
+		fish.breath();
+		fish.eat();
+		fish.move();
+		fish.sleep();
+		fish.swim();
+		System.out.println();
+		
+		cat.breath();
+		cat.eat();
+		cat.hunt();
+		cat.move();
+		cat.run();
+		cat.sleep();
+		System.out.println("Num of legs of cat: " + turtle.getLegs());
+		System.out.println();
+		
+		turtle.breath();
+		turtle.eat();
+		turtle.hunt();
+		turtle.move();
+		turtle.run();
+		turtle.sleep();
+		turtle.swim();
+		System.out.println("Num of legs of turtle: " + turtle.getLegs());
+	}
+
+}
