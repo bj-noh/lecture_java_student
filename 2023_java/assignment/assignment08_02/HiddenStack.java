@@ -11,15 +11,14 @@ public class HiddenStack {
 		 * 3. newArr에 원소가 있고, newArr의 마지막 원소의 값이 arr[index]의 값보다 작으면 arr[index]를 newArr의 뒤에 추가하고 index에 1을 더한다.
 		 * 4. newArr에 원소가 있고, newArr의 마지막 원소의 값이 arr[index]보다 크거나 같으면 newArr의 마지막 원소를 newArr에서 제거하고, index의 값은 증가시키지 않는다.
 		 * 5. 반복이 끝났다면, 그 값을 result 배열에 넣고, 최종 결과를 출력한다 (구현 완료)
-		  
  		 * 예시)
  		 * 
 			arr	                  result
 			{1, 4, 2, 5, 3}	     {1, 2, 3}
 			
-		* 예시 설명) arr = {1, 4, 2, 5, 3}, cap = 4
+		* 예시 설명) arr = {1, 4, 2, 5, 3}, cap = 5
 		* 
-			i	 arr[i]	    stk
+			index arr[i]	newArr
 			0	  1	       	{1}
 			1	  4		   	{1, 4}
 			2	  2			{1}

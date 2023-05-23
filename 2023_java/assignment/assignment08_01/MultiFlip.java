@@ -2,7 +2,7 @@ package assignment08_01;
 
 public class MultiFlip {
 
-    public static String mutlFlips(String str, int[][] queries) {
+    public static String multiFlips(String str, int[][] queries) {
     	
 
         /////////////// CODE HERE ///////////////
@@ -24,7 +24,7 @@ public class MultiFlip {
 		 */
     	
     	int[][] queries = {{2, 3}, {0, 7}, {5, 9}, {6, 10}};
-    	String result = mutlFlips("rermgorpsam", queries);
+    	String result = multiFlips("rermgorpsam", queries);
     	System.out.println(result);
     }
 
